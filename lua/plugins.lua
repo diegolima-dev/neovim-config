@@ -15,8 +15,6 @@ return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
 
   -- Themes
-  use { "catppuccin/nvim", as = "catppuccin" }
-  use 'maxmx03/dracula.nvim'
 
   -- Cooment nvim
   use {
