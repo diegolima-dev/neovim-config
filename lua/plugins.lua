@@ -18,6 +18,14 @@ return require('packer').startup(function(use)
   use { "catppuccin/nvim", as = "catppuccin" }
   use 'maxmx03/dracula.nvim'
 
+  -- Cooment nvim
+  use {
+    'numToStr/Comment.nvim',
+    config = function()
+        require('Comment').setup()
+    end
+  }
+
   -- Auto completar
   use "hrsh7th/cmp-buffer"
   use "hrsh7th/cmp-cmdline"
