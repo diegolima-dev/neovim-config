@@ -15,6 +15,7 @@ return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
 
   -- Themes
+  use {'morhetz/gruvbox', config = function() vim.cmd.colorscheme("gruvbox") end }
 
   -- Cooment nvim
   use {
