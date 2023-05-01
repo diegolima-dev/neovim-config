@@ -44,4 +44,6 @@ require("catppuccin").setup({
 
 -- setup must be called before loading
 -- catppuccin-latte, catppuccin-frappe, catppuccin-macchiato, catppuccin-mocha
-vim.cmd.colorscheme "catppuccin-frappe"
+-- vim.cmd.colorscheme "catppuccin-frappe"
+
+vim.cmd 'colorscheme dracula'

@@ -16,6 +16,7 @@ return require('packer').startup(function(use)
 
   -- Themes
   use { "catppuccin/nvim", as = "catppuccin" }
+  use 'maxmx03/dracula.nvim'
 
   -- Auto completar
   use "hrsh7th/cmp-buffer"
