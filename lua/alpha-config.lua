@@ -17,8 +17,8 @@ dashboard.section.header.val = {
 dashboard.section.buttons.val = {
     dashboard.button( "e", "  > New file" , ":ene <BAR> startinsert <CR>"),
     dashboard.button( "f", "  > Find file", ": | Telescope find_files<CR>"),
-    -- dashboard.button("w", "  > Projects", "<cmd>Telescope workspaces<cr>"),
-    dashboard.button("e", "פּ  >" .. " Nvim-Tree", ":NvimTreeToggle<CR>"),
+    dashboard.button("o", "  > Open Directory", "<cmd>Telescope opener<cr>"),
+    -- dashboard.button("t", "פּ  >" .. " Nvim-Tree", ":NvimTreeToggle<CR>"),
     dashboard.button("m", " " .. " > Mason", ":Mason<CR>"),
     dashboard.button( "r", "  > Recent"   , ":Telescope oldfiles<CR>"),
     dashboard.button("p", "  > Update Plugins", "<Cmd>PackerSync<CR>"),

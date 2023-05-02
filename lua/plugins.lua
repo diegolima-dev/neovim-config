@@ -14,6 +14,9 @@ local packer_bootstrap = ensure_packer()
 return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
 
+  -- opener
+  use "willthbill/opener.nvim"
+
   -- Themes
   use {'morhetz/gruvbox', config = function() vim.cmd.colorscheme("gruvbox") end }
 
