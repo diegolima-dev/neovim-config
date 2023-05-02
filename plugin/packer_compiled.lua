@@ -230,6 +230,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/diego/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
     url = "https://github.com/akinsho/toggleterm.nvim"
+  },
+  ["vim-move"] = {
+    loaded = true,
+    path = "/home/diego/.local/share/nvim/site/pack/packer/start/vim-move",
+    url = "https://github.com/matze/vim-move"
   }
 }
 

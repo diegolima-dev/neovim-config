@@ -14,6 +14,9 @@ local packer_bootstrap = ensure_packer()
 return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
 
+  -- vim move
+  use 'matze/vim-move'
+
   -- opener
   use "willthbill/opener.nvim"
 
