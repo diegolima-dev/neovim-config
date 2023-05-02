@@ -22,7 +22,7 @@ dashboard.section.buttons.val = {
     dashboard.button("m", " " .. " > Mason", ":Mason<CR>"),
     dashboard.button( "r", "  > Recent"   , ":Telescope oldfiles<CR>"),
     dashboard.button("p", "  > Update Plugins", "<Cmd>PackerSync<CR>"),
-    dashboard.button("p", "󰂖  > Plugins Status", "<Cmd>PackerStatus<CR>"),
+    -- dashboard.button("p", "󰂖  > Plugins Status", "<Cmd>PackerStatus<CR>"),
     dashboard.button("h", "  > health", "<cmd>checkhealth<cr>"),
     dashboard.button( "s", "  > Settings" , ":e $MYVIMRC | :cd %:p:h | split . | wincmd k | pwd<CR>"),
     dashboard.button( "q", "  > Quit NVIM", ":qa<CR>"),

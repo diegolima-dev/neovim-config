@@ -7,5 +7,5 @@ require("bufferline").setup {
     left_trunc_marker = '',
     right_trunc_marker = '',
   },
- -- highlights = require("catppuccin.groups.integrations.bufferline").get()
+ highlights = require("catppuccin.groups.integrations.bufferline").get()
 }

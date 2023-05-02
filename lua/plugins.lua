@@ -17,11 +17,11 @@ return require('packer').startup(function(use)
   -- vim move
   use 'matze/vim-move'
 
+  -- theme
+  use { "catppuccin/nvim", as = "catppuccin" }
+
   -- opener
   use "willthbill/opener.nvim"
-
-  -- Themes
-  use {'morhetz/gruvbox', config = function() vim.cmd.colorscheme("gruvbox") end }
 
   -- Cooment nvim
   use {
@@ -61,7 +61,7 @@ return require('packer').startup(function(use)
 
   -- Interface
   use "lukas-reineke/indent-blankline.nvim"
-  -- use "nvim-treesitter/nvim-treesitter"
+  use "nvim-treesitter/nvim-treesitter"
   use "nvim-lualine/lualine.nvim"
   use {
     'nvim-tree/nvim-tree.lua',
