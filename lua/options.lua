@@ -34,6 +34,11 @@ set.ttimeoutlen = 0
 set.wildmenu = true
 set.wrap = true
 
+local Plug = vim.fn['plug#']
+vim.call('plug#begin', '~/.config/nvim/plugged')
+  Plug 'sheerun/vim-polyglot'
+vim.call('plug#end')
+
 vim.cmd([[
   filetype plugin indent on
   syntax on

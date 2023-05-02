@@ -2,6 +2,9 @@ local map = vim.api.nvim_set_keymap
 local kmap = vim.keymap.set
 local opts = { noremap = true, silent = true }
 
+-- save
+map("n", "<C-s>", ":w<CR>", opts)
+
 -- split navigation
 map("n", "<C-h>", "<C-w>h", opts)
 map("n", "<C-j>", "<C-w>j", opts)
