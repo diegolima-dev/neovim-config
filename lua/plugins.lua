@@ -83,8 +83,11 @@ return require('packer').startup(function(use)
   use {'akinsho/toggleterm.nvim', tag = 'v2.*'}
 
   -- Live Server
-  use 'barrett-ruth/live-server.nvim'
-  if packer_bootstrap then
-    require('packer').sync()
-  end
+  use({
+  "aurum77/live-server.nvim",
+    run = function()
+      require"live_server.util".install()
+    end,
+    cmd = { "LiveServer", "LiveServerStart", "LiveServerStop" },
+  })
 end)
