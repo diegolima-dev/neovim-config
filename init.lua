@@ -1,7 +1,7 @@
 require('options')
 require('plugins')
 require('theme')
-require('lualine-config')
+require('staline-config')
 require('nvim-tree-config')
 require('bufferline-config')
 require('colorizer-config')
