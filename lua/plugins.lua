@@ -63,7 +63,6 @@ return require('packer').startup(function(use)
   -- Interface
   use "lukas-reineke/indent-blankline.nvim"
   use "nvim-treesitter/nvim-treesitter"
-  -- use "nvim-lualine/lualine.nvim"
   use {
     'nvim-tree/nvim-tree.lua',
     requires = {
