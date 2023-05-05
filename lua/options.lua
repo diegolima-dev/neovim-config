@@ -37,4 +37,6 @@ set.wrap = true
 vim.cmd([[
   filetype plugin indent on
   syntax on
+
+  autocmd FileType javascript nnoremap <buffer> <F12> :w !node<CR>
 ]])
