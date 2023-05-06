@@ -1,7 +1,7 @@
 require("toggleterm").setup{
   -- size can be a number or function which is passed the current terminal
   size = 22,
-  open_mapping = [[<c-w>]],
+  open_mapping = [[<F5>]],
   hide_numbers = true, -- hide the number column in toggleterm buffers
   shade_filetypes = {},
   shade_terminals = true, -- NOTE: this option takes priority over highlights specified so if you specify Normal highlights you should set this to false
