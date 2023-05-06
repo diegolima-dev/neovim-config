@@ -4,12 +4,7 @@ require "staline".setup {
 		mid = {},
 		right = {'file_name', 'line_column' }
 	},
-	mode_colors = {
-		i = "#a6d189",
-		n = "#85c1dc",
-		c = "#e78284",
-		v = "#f4b8e4",
-	},
+	mode_colors = gruvbox,
 	defaults = {
 		true_colors = true,
 		line_column = " %l/%L :%c  ",

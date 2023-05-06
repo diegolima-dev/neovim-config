@@ -19,7 +19,7 @@ return require('packer').startup(function(use)
   use 'matze/vim-move'
 
   -- theme
-  use { "catppuccin/nvim", as = "catppuccin" }
+  use "sainnhe/gruvbox-material"
 
   -- opener
   use "willthbill/opener.nvim"
