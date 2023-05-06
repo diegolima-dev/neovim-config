@@ -3,9 +3,9 @@ vim.g.gruvbox_material_palette = "material" -- original, mix, material
 vim.g.gruvbox_material_enable_italic = 1
 vim.g.gruvbox_material_sign_column_background = 'none'
 
-grpid = vim.api.nvim_create_augroup('custom_highlights_gruvboxmaterial', {})
+GRPID = vim.api.nvim_create_augroup('custom_highlights_gruvboxmaterial', {})
 vim.api.nvim_create_autocmd('ColorScheme', {
-  group = grpid,
+  group = GRPID,
   pattern = 'gruvbox-material',
   command =
   'hi NvimTreeNormal                     guibg=#181818 |' ..
