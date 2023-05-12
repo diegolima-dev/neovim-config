@@ -42,13 +42,4 @@ require("catppuccin").setup({
 })
 
 -- setup must be called before loading
--- vim.cmd.colorscheme "catppuccin"
-
--- local ok, _ = pcall(require, 'gruvbox')
--- if not ok then return end
-
-vim.g.gruvbox_material_better_performance = 1
-vim.g.gruvbox_material_transparent_background = 0
-vim.g.gruvbox_material_background = 'medium'
-
-vim.cmd("colorscheme gruvbox-material")
+vim.cmd.colorscheme "catppuccin"

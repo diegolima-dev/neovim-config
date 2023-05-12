@@ -20,7 +20,6 @@ return require('packer').startup(function(use)
 
   -- theme
   use { "catppuccin/nvim", as = "catppuccin" }
-  use "sainnhe/gruvbox-material"
 
   -- opener
   use "willthbill/opener.nvim"
