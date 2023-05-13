@@ -2,7 +2,7 @@ require "staline".setup {
 	sections = {
 		left = { '  ', 'mode', ' ', 'branch', '', 'lsp' },
 		mid = {},
-		right = {'file_name', 'line_column' }
+		right = { 'line_column' }
 	},
 	mode_colors = {
 		i = "#a6d189",
@@ -12,7 +12,7 @@ require "staline".setup {
 	},
 	defaults = {
 		true_colors = true,
-		line_column = " %l/%L :%c  並%p%% ",
+		line_column = " %l/%L :%c  %p%% ",
 		branch_symbol = " "
 	}
 }
