@@ -38,7 +38,7 @@ packer.init {
   },
 }
 
-return require('packer').startup(function(use)
+return packer.startup(function(use)
   use 'wbthomason/packer.nvim'
   use 'tamton-aquib/staline.nvim'
 
