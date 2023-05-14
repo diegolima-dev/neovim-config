@@ -29,8 +29,8 @@ map("n", "<C-a>", ":NvimTreeToggle<CR>", opts)
 map("n", "te", ":tabe<CR>", opts)
 
 -- Navigate between buffers
-map("n", "ty", ":bn<CR>", opts)
-map("n", "tr", ":bp<CR>", opts)
+map("n", "<S-l>", ":bnext<CR>", opts)
+map("n", "<S-h>", ":bprevious<CR>", opts)
 
 -- Delete a buffer
 map("n", "td", ":bd<CR>", opts)
