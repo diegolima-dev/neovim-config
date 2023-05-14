@@ -14,8 +14,8 @@ map("n", "<C-l>", "<C-w>l", opts)
 -- Resize with arrows
 map("n", "<C-Up>", ":resize +2<CR>", opts)
 map("n", "<C-Down>", ":resize -2<CR>", opts)
-map("n", "<C-Left>", ":vertical resize +2<CR>", opts)
-map("n", "<C-Right>", ":vertical resize -2<CR>", opts)
+map("n", "<C-Left>", ":vertical resize -2<CR>", opts)
+map("n", "<C-Right>", ":vertical resize +2<CR>", opts)
 
 -- Adding an empty line below, above and below with insert
 map("n", "op", "o<Esc>k", opts)
