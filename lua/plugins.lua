@@ -17,6 +17,17 @@ vim.cmd [[
   augroup end
 ]]
 
+local packer = require("packer")
+
+-- Have packer use a popup window
+packer.init {
+  display = {
+    open_fn = function()
+      return require("packer.util").float { border = "rounded" }
+    end,
+  },
+}
+
 local packer_bootstrap = ensure_packer()
 
 return require('packer').startup(function(use)
