@@ -36,6 +36,11 @@ map("n", "<S-h>", ":bprevious<CR>", opts)
 -- Press jk fast to enter
 map("i", "jk", "<ESC>", opts)
 
+-- Visual --
+-- Stay in indent mode
+map("v", "<", "<gv", opts)
+map("v", ">", ">gv", opts)
+
 -- Delete a buffer
 map("n", "td", ":bd<CR>", opts)
 
