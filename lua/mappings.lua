@@ -32,6 +32,10 @@ map("n", "te", ":tabe<CR>", opts)
 map("n", "<S-l>", ":bnext<CR>", opts)
 map("n", "<S-h>", ":bprevious<CR>", opts)
 
+-- Insert --
+-- Press jk fast to enter
+map("i", "jk", "<ESC>", opts)
+
 -- Delete a buffer
 map("n", "td", ":bd<CR>", opts)
 
