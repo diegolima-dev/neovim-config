@@ -9,6 +9,14 @@ local ensure_packer = function()
   return false
 end
 
+-- Autocommand that reloads neovim whenever you save the plugins.lua file
+vim.cmd [[
+  augroup packer_user_config
+    autocmd!
+    autocmd BufWritePost plugins.lua source <afile> | PackerSync
+  augroup end
+]]
+
 local packer_bootstrap = ensure_packer()
 
 return require('packer').startup(function(use)
