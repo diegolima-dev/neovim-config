@@ -13,6 +13,6 @@ require "staline".setup {
 	defaults = {
 		true_colors = true,
 		line_column = " %l/%L :%c  %p%% ",
-		branch_symbol = " "
+		branch_symbol = " "
 	}
 }
