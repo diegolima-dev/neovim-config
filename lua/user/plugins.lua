@@ -40,7 +40,6 @@ packer.init {
 
 return packer.startup(function(use)
   use 'wbthomason/packer.nvim'
-  use 'tamton-aquib/staline.nvim'
 
   -- vim move
   use 'matze/vim-move'
@@ -76,7 +75,7 @@ return packer.startup(function(use)
   use "williamboman/mason.nvim"
   use "williamboman/mason-lspconfig.nvim"
   use "neovim/nvim-lspconfig"
-  use 'jose-elias-alvarez/null-ls.nvim'
+  -- use 'jose-elias-alvarez/null-ls.nvim'
 
   -- Utilitários
   use 'windwp/nvim-autopairs'
@@ -99,6 +98,10 @@ return packer.startup(function(use)
   }
   use {'akinsho/bufferline.nvim', tag = "*", requires = 'nvim-tree/nvim-web-devicons'}
   use 'goolord/alpha-nvim'
+  use {
+    'nvim-lualine/lualine.nvim',
+    requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+  }
 
   -- Telescope
   use {
