@@ -27,6 +27,9 @@ require("nvim-treesitter.configs").setup({
     "vim",
     "yaml",
   },
+  autopairs = {
+		enable = true,
+	},
   highlight = { enable = true },
   indent = { enable = true },
   autotag = {
