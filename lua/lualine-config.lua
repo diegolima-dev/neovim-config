@@ -7,6 +7,16 @@ local hide_in_width = function()
 	return vim.fn.winwidth(0) > 80
 end
 
+local diagnostics = {
+	"diagnostics",
+	sources = { "nvim_diagnostic" },
+	sections = { "error", "warn", "hint", "info" },
+	symbols = { error = " ", warn = " ", hint = " ", info = " " },
+	colored = true,
+	update_in_insert = false,
+	always_visible = false,
+}
+
 local filename = {
   "filename",
   file_status = false,
@@ -36,7 +46,7 @@ lualine.setup({
   },
   sections = {
     lualine_a = {'mode'},
-    lualine_b = {branch, 'diagnostics'},
+    lualine_b = {branch, diagnostics},
     lualine_c = {},
     lualine_x = {diff},
     lualine_y = {'progress'},
