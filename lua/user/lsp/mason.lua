@@ -3,7 +3,7 @@ local servers = {
   "emmet_ls",
   "html",
   "cssls",
-  "tsserver",
+  "quick_lint_js",
 }
 
 local settings = {
