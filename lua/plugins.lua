@@ -40,7 +40,10 @@ packer.init {
 
 return packer.startup(function(use)
   use 'wbthomason/packer.nvim'
-  use 'tamton-aquib/staline.nvim'
+  use {
+  'nvim-lualine/lualine.nvim',
+  requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+}
 
   -- vim move
   use 'matze/vim-move'

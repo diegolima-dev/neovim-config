@@ -5,7 +5,7 @@ require('user.colorscheme')
 require('user.cmp')
 require('user.lsp')
 
-require('staline-config')
+require('lualine-config')
 require('nvim-tree-config')
 require('bufferline-config')
 require('colorizer-config')
